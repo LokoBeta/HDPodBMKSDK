@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
         hdBMK.source_files = 'HDPodBMKSDK/*.{h,m,mm}'
     end
 
-    s.dependency 'BaiduMapKit'
+    s.dependency 'BaiduMapKit','3.3.4'
     
     s.frameworks   = "CoreLocation", "CoreTelephony", "OpenGLES", "QuartzCore", "Security", "SystemConfiguration", "BaiduMapAPI_Base", "BaiduMapAPI_Cloud", "BaiduMapAPI_Location", "BaiduMapAPI_Map", "BaiduMapAPI_Radar", "BaiduMapAPI_Search", "BaiduMapAPI_Utils"
     s.libraries    = "z", "sqlite3.0", "stdc++.6.0.9", "crypto", "ssl"
